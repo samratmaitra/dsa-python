@@ -15,7 +15,7 @@ class BSTNode:
             if self.right:
                 self.right.add_child(data)
             else:
-                self.right = self.right = BSTNode(data)
+                self.right = BSTNode(data)
     
     def sort(self):
         sorted_elements = []
